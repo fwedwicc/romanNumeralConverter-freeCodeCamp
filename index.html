@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp | Roman Numeral Converter</title>
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/syles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Roman Numeral Converter</h1>
+        <p>Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals.</p>
+        <div class="card">
+            <form>
+                <div class ="align">
+                    <input 
+                        type="text" 
+                        id="number" 
+                        name="text-input" 
+                        class="input"
+                        placeholder="Type a number..."
+                    />
+                    <button 
+                        type="button" 
+                        id="convert-btn" 
+                        onclick="handleConversion()" 
+                        class="button">Check
+                    </button>
+                </div>
+                <div 
+                    id="output"
+                >
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
